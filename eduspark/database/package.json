@@ -1,0 +1,23 @@
+{
+  "name": "eduspark-database",
+  "version": "1.0.0",
+  "description": "EduSpark Database Scripts and Seeders",
+  "main": "seed.js",
+  "scripts": {
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "mongodb",
+    "seeder",
+    "education"
+  ],
+  "author": "EduSpark Team",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.9.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7"
+  }
+}
