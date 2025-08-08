@@ -1,0 +1,16 @@
+{
+  "name": "convo-ai",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm -w apps/server run dev & npm -w apps/web run dev",
+    "build": "npm -w apps/server run build && npm -w apps/web run build",
+    "start": "npm -w apps/server run start & npm -w apps/web run preview",
+    "prisma:generate": "npm -w apps/server run prisma:generate",
+    "prisma:migrate": "npm -w apps/server run prisma:migrate"
+  }
+}
